@@ -1,0 +1,28 @@
+body {
+    font: normal 18px Verdana,Arial;
+}
+
+input[type="submit"], button {
+    background: #cc6014;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+input[type='text'] {
+    padding: 10px;
+    font: normal 18px Verdana,Arial;
+}
+
+td {
+    padding: 10px;
+}
+
+form#addForm, .list {
+    margin-bottom: 30px;
+}
+
+.js_remaining {
+    margin-bottom: 20px;
+    color: #777777;
+}

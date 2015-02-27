@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+	<script src="underscore.js"></script>
+	<script src="jquery-2.1.1.min.js"></script>
+	<script src="backbone.js"></script>
+	<script src="backbone.localStorage.js"></script>
+    <style>
+        .completed {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <form action="" id="addForm">
+        <input class='js_text' type="text" placeholder="Task text"/>
+        <input type="submit"/>
+    </form>
+    <div class="tasks">
+
+        <div class="js_remaining">Осталось нерешенных задач: <span></span></div>
+    </div>
+
+    <button class="js_remove_finished">Удалить все выполненные</button>
+<script src="script.js"></script>
+</body>
+</html>
